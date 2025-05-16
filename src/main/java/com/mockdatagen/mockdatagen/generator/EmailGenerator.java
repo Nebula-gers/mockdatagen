@@ -26,7 +26,5 @@ public class EmailGenerator {
         return name + number = "@" + domain;
     };
 
-    public static String email() {
-        return EmailGenerator.generateEmail();
-    }
+
 }
